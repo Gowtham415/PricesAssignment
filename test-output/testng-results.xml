@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19316" started-at="2020-02-11T16:35:26Z" finished-at="2020-02-11T16:35:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19316" started-at="2020-02-11T16:35:26Z" finished-at="2020-02-11T16:35:45Z">
+      <class name="assignments.testsuites.PriceComparisionSuite_1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:assignments.testsuites.PriceComparisionSuite_1@1d057a39]" name="beforeMethod" is-config="true" duration-ms="10274" started-at="2020-02-11T16:35:26Z" finished-at="2020-02-11T16:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="priceCompareTest()[pri:0, instance:assignments.testsuites.PriceComparisionSuite_1@1d057a39]" name="priceCompareTest" duration-ms="7814" started-at="2020-02-11T16:35:36Z" finished-at="2020-02-11T16:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceCompareTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:assignments.testsuites.PriceComparisionSuite_1@1d057a39]" name="afterMethod" is-config="true" duration-ms="1203" started-at="2020-02-11T16:35:44Z" finished-at="2020-02-11T16:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- assignments.testsuites.PriceComparisionSuite_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

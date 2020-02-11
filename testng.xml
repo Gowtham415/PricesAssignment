@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Textura Link 1.0" verbose="1" parallel="none">
+	<test name="smoke" enabled="true">
+		<classes>
+			<class name="assignments.testsuites.PriceComparisionSuite_1"></class>
+		</classes>
+	</test>
+</suite>

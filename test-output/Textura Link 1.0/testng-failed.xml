@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Textura Link 1.0]">
+  <test thread-count="5" name="smoke(failed)">
+    <classes>
+      <class name="assignments.testsuites.PriceComparisionSuite_1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="priceCompareTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- assignments.testsuites.PriceComparisionSuite_1 -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [Textura Link 1.0] -->
