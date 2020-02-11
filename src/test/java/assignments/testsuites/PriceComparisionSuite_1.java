@@ -12,7 +12,7 @@ public class PriceComparisionSuite_1 extends BaseTest{
   public void priceCompareTest() {
 	  driver.get(configReader.getproperty("amazonurl"));
 	  double amazonPrice = pages.getInstance(AmazonPage.class).getProductPrice("Apple iPhone XR (64GB) - Black");
-	  driver.get(configReader.getproperty("flipkarturl"));
+	  driver.navigate().to(configReader.getproperty("flipkarturl"));
 	  double flipkartPrice = pages.getInstance(FlipkartPage.class).getProductPrice("Apple iPhone XR (Black, 64 GB)");
 	  
 	  if(amazonPrice>flipkartPrice) {

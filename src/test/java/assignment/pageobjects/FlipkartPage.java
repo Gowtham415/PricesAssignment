@@ -11,7 +11,7 @@ public class FlipkartPage extends BasePage{
 	}
 	
 	public void closeLoginModal() {
-		action.moveToElement(driver.findElement(By.xpath("//body/div[2]/div[1]/div/button"))).click().build().perform();
+		driverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//body/div[2]/div[1]/div/button"))).click();
 	}
 	
 	public void searchProduct(String productName) {
