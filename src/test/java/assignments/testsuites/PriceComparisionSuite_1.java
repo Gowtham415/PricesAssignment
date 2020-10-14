@@ -16,9 +16,9 @@ public class PriceComparisionSuite_1 extends BaseTest{
 	  double flipkartPrice = pages.getInstance(FlipkartPage.class).getProductPrice("Apple iPhone XR (Black, 64 GB)");
 	  
 	  if(amazonPrice>flipkartPrice) {
-		  System.out.println("Apple iphone XR 64 GB is available in flipkart at a cheaper price: Rs."+flipkartPrice);
+		  System.out.println("Apple iphone XR 64 GB is available in flipkart at a cheaper price: Rs."+flipkartPrice+" than Amazon which has a price of "+amazonPrice);
 	  }else {
-		  System.out.println("Apple iphone XR 64 GB is available in Amazon at a cheaper price: Rs."+amazonPrice);
+		  System.out.println("Apple iphone XR 64 GB is available in Amazon at a cheaper price: Rs."+amazonPrice+" than flipkart which has a proce of "+flipkartPrice);
 	  }
   }
 }
